@@ -8,16 +8,36 @@
 
 #import "HomeViewController.h"
 
-@interface HomeViewController ()
-
+@interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong)UITableView *tableView;
 @end
 
 @implementation HomeViewController
 
+#pragma mark - 懒加载
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+    }
+    return _tableView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.tableView];
 }
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//    return NULL;
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

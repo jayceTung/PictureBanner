@@ -15,11 +15,15 @@
 		BF4BB3C71FB5A71900BCC573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3C61FB5A71900BCC573 /* main.m */; };
 		BF4BB3D11FB5A71900BCC573 /* PictureBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3D01FB5A71900BCC573 /* PictureBannerTests.m */; };
 		BF4BB3DC1FB5A71900BCC573 /* PictureBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3DB1FB5A71900BCC573 /* PictureBannerUITests.m */; };
+		BF8B5B072081B3D8000BF183 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */; };
+		BF8B5B0B2085E23B000BF183 /* CommonUIVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B5B0A2085E23B000BF183 /* CommonUIVIewController.m */; };
 		BFB2B4E5207CA45400BB05B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4E4207CA45400BB05B7 /* HomeViewController.m */; };
 		BFB2B4E8207CB4CD00BB05B7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4E7207CB4CD00BB05B7 /* BaseViewController.m */; };
 		BFB2B4EB207CB9B500BB05B7 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4EA207CB9B500BB05B7 /* MyWebView.m */; };
 		BFB2B4EE207CB9F800BB05B7 /* ContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4ED207CB9F800BB05B7 /* ContentModel.m */; };
 		BFB2B4F1207DA4E600BB05B7 /* ListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4F0207DA4E600BB05B7 /* ListDataModel.m */; };
+		BFEC5F632080901E001E6781 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC5F622080901E001E6781 /* TableViewController.m */; };
+		BFEC5F662080A4CE001E6781 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC5F652080A4CE001E6781 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,11 @@
 		BF4BB3D71FB5A71900BCC573 /* PictureBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BB3DB1FB5A71900BCC573 /* PictureBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureBannerUITests.m; sourceTree = "<group>"; };
 		BF4BB3DD1FB5A71900BCC573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8B5B052081B3D8000BF183 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		BF8B5B08208244ED000BF183 /* PictureBanner.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureBanner.pch; sourceTree = "<group>"; };
+		BF8B5B092085E23B000BF183 /* CommonUIVIewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUIVIewController.h; sourceTree = "<group>"; };
+		BF8B5B0A2085E23B000BF183 /* CommonUIVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUIVIewController.m; sourceTree = "<group>"; };
 		BFB2B4E3207CA45400BB05B7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BFB2B4E4207CA45400BB05B7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BFB2B4E6207CB4CD00BB05B7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -68,6 +77,10 @@
 		BFB2B4ED207CB9F800BB05B7 /* ContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentModel.m; sourceTree = "<group>"; };
 		BFB2B4EF207DA4E600BB05B7 /* ListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListDataModel.h; sourceTree = "<group>"; };
 		BFB2B4F0207DA4E600BB05B7 /* ListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListDataModel.m; sourceTree = "<group>"; };
+		BFEC5F612080901E001E6781 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BFEC5F622080901E001E6781 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BFEC5F642080A4CE001E6781 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		BFEC5F652080A4CE001E6781 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +151,7 @@
 				BF4BB3C21FB5A71900BCC573 /* LaunchScreen.storyboard */,
 				BF4BB3C51FB5A71900BCC573 /* Info.plist */,
 				BF4BB3C61FB5A71900BCC573 /* main.m */,
+				BF8B5B08208244ED000BF183 /* PictureBanner.pch */,
 			);
 			path = PictureBanner;
 			sourceTree = "<group>";
@@ -177,6 +191,10 @@
 				BFB2B4E4207CA45400BB05B7 /* HomeViewController.m */,
 				BFB2B4E6207CB4CD00BB05B7 /* BaseViewController.h */,
 				BFB2B4E7207CB4CD00BB05B7 /* BaseViewController.m */,
+				BFEC5F612080901E001E6781 /* TableViewController.h */,
+				BFEC5F622080901E001E6781 /* TableViewController.m */,
+				BF8B5B092085E23B000BF183 /* CommonUIVIewController.h */,
+				BF8B5B0A2085E23B000BF183 /* CommonUIVIewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +215,10 @@
 			children = (
 				BFB2B4E9207CB9B500BB05B7 /* MyWebView.h */,
 				BFB2B4EA207CB9B500BB05B7 /* MyWebView.m */,
+				BFEC5F642080A4CE001E6781 /* CustomCell.h */,
+				BFEC5F652080A4CE001E6781 /* CustomCell.m */,
+				BF8B5B052081B3D8000BF183 /* HomeTableViewCell.h */,
+				BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,7 +243,6 @@
 				BF4BB3B01FB5A71900BCC573 /* Sources */,
 				BF4BB3B11FB5A71900BCC573 /* Frameworks */,
 				BF4BB3B21FB5A71900BCC573 /* Resources */,
-				AE99312F1586DCF51D4ADFDA /* [CP] Embed Pods Frameworks */,
 				2CD6D3BBE6ABEEBFDA0D339F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -353,7 +374,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKColorTable.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,21 +400,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE99312F1586DCF51D4ADFDA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureBanner/Pods-PictureBanner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -404,9 +411,13 @@
 				BFB2B4F1207DA4E600BB05B7 /* ListDataModel.m in Sources */,
 				BFB2B4E8207CB4CD00BB05B7 /* BaseViewController.m in Sources */,
 				BF4BB3C71FB5A71900BCC573 /* main.m in Sources */,
+				BFEC5F662080A4CE001E6781 /* CustomCell.m in Sources */,
+				BFEC5F632080901E001E6781 /* TableViewController.m in Sources */,
 				BF4BB3B91FB5A71900BCC573 /* AppDelegate.m in Sources */,
 				BFB2B4E5207CA45400BB05B7 /* HomeViewController.m in Sources */,
 				BFB2B4EE207CB9F800BB05B7 /* ContentModel.m in Sources */,
+				BF8B5B0B2085E23B000BF183 /* CommonUIVIewController.m in Sources */,
+				BF8B5B072081B3D8000BF183 /* HomeTableViewCell.m in Sources */,
 				BFB2B4EB207CB9B500BB05B7 /* MyWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,6 +582,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47MFJ7QTEK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PictureBanner/PictureBanner.pch";
 				INFOPLIST_FILE = PictureBanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -589,6 +601,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47MFJ7QTEK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PictureBanner/PictureBanner.pch";
 				INFOPLIST_FILE = PictureBanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
