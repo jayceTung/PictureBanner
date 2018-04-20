@@ -10,6 +10,8 @@ pod 'DKNightVersion'
 pod 'ViewDeck'
 pod 'MBProgressHUD'
 pod 'SDAutoLayout'
+pod 'Masonry'
+pod 'MJRefresh'
 
 end
 
