@@ -27,6 +27,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] init];
+    barButtonItem.title = @"返回";
+    self.navigationItem.backBarButtonItem = barButtonItem;
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
 }

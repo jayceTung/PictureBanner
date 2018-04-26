@@ -7,7 +7,7 @@
 //
 
 #import "CommonUIVIewController.h"
-#import "HomeViewController.h"
+#import "BaseViewController.h"
 
 @interface CommonUIVIewController ()
 
@@ -118,7 +118,7 @@
 }
 
 - (void)labelBtn {
-    [self presentViewController:[[HomeViewController alloc] init] animated:TRUE completion:^{
+    [self presentViewController:[[BaseViewController alloc] init] animated:TRUE completion:^{
         NSLog(@"go to HomeViewController");
     }];
 }
@@ -136,6 +136,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;//重新设置代理
+    self.navigationController.interactivePopGestureRecognizer.enabled = NO;//本页面不能右滑
+}
 /*
 #pragma mark - Navigation
 

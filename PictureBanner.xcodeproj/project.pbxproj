@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18150FC4D72A3918834B2A48 /* libPods-PictureBanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DEF841D86852102BBA6DCC /* libPods-PictureBanner.a */; };
+		BF3471AC2090784F005EE37C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3471AB2090784F005EE37C /* LeftViewController.m */; };
 		BF4BB3B91FB5A71900BCC573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3B81FB5A71900BCC573 /* AppDelegate.m */; };
 		BF4BB3BC1FB5A71900BCC573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3BB1FB5A71900BCC573 /* ViewController.m */; };
 		BF4BB3C11FB5A71900BCC573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BB3C01FB5A71900BCC573 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 		BF4BB3C71FB5A71900BCC573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3C61FB5A71900BCC573 /* main.m */; };
 		BF4BB3D11FB5A71900BCC573 /* PictureBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3D01FB5A71900BCC573 /* PictureBannerTests.m */; };
 		BF4BB3DC1FB5A71900BCC573 /* PictureBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BB3DB1FB5A71900BCC573 /* PictureBannerUITests.m */; };
+		BF861C4F20916D5E0061DA44 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF861C4E20916D5E0061DA44 /* SWRevealViewController.m */; };
+		BF861C582091E9810061DA44 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF861C572091E9810061DA44 /* TitleButton.m */; };
 		BF8B5B072081B3D8000BF183 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */; };
 		BF8B5B0B2085E23B000BF183 /* CommonUIVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B5B0A2085E23B000BF183 /* CommonUIVIewController.m */; };
 		BFB2B4E5207CA45400BB05B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B4E4207CA45400BB05B7 /* HomeViewController.m */; };
@@ -47,6 +50,8 @@
 		3077771E1548DC0CACA6FF62 /* Pods-PictureBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureBanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureBanner/Pods-PictureBanner.release.xcconfig"; sourceTree = "<group>"; };
 		8ED90F92CD50E07ED94E3E51 /* Pods-PictureBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureBanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureBanner/Pods-PictureBanner.debug.xcconfig"; sourceTree = "<group>"; };
 		A7DEF841D86852102BBA6DCC /* libPods-PictureBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PictureBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3471AA2090784F005EE37C /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		BF3471AB2090784F005EE37C /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		BF4BB3B41FB5A71900BCC573 /* PictureBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BB3B71FB5A71900BCC573 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF4BB3B81FB5A71900BCC573 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +67,10 @@
 		BF4BB3D71FB5A71900BCC573 /* PictureBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4BB3DB1FB5A71900BCC573 /* PictureBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureBannerUITests.m; sourceTree = "<group>"; };
 		BF4BB3DD1FB5A71900BCC573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF861C4D20916D5E0061DA44 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BF861C4E20916D5E0061DA44 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BF861C562091E9810061DA44 /* TitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		BF861C572091E9810061DA44 /* TitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
 		BF8B5B052081B3D8000BF183 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		BF8B5B08208244ED000BF183 /* PictureBanner.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureBanner.pch; sourceTree = "<group>"; };
@@ -195,6 +204,10 @@
 				BFEC5F622080901E001E6781 /* TableViewController.m */,
 				BF8B5B092085E23B000BF183 /* CommonUIVIewController.h */,
 				BF8B5B0A2085E23B000BF183 /* CommonUIVIewController.m */,
+				BF3471AA2090784F005EE37C /* LeftViewController.h */,
+				BF3471AB2090784F005EE37C /* LeftViewController.m */,
+				BF861C4D20916D5E0061DA44 /* SWRevealViewController.h */,
+				BF861C4E20916D5E0061DA44 /* SWRevealViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +232,8 @@
 				BFEC5F652080A4CE001E6781 /* CustomCell.m */,
 				BF8B5B052081B3D8000BF183 /* HomeTableViewCell.h */,
 				BF8B5B062081B3D8000BF183 /* HomeTableViewCell.m */,
+				BF861C562091E9810061DA44 /* TitleButton.h */,
+				BF861C572091E9810061DA44 /* TitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -410,14 +425,17 @@
 				BF4BB3BC1FB5A71900BCC573 /* ViewController.m in Sources */,
 				BFB2B4F1207DA4E600BB05B7 /* ListDataModel.m in Sources */,
 				BFB2B4E8207CB4CD00BB05B7 /* BaseViewController.m in Sources */,
+				BF861C582091E9810061DA44 /* TitleButton.m in Sources */,
 				BF4BB3C71FB5A71900BCC573 /* main.m in Sources */,
 				BFEC5F662080A4CE001E6781 /* CustomCell.m in Sources */,
 				BFEC5F632080901E001E6781 /* TableViewController.m in Sources */,
 				BF4BB3B91FB5A71900BCC573 /* AppDelegate.m in Sources */,
+				BF861C4F20916D5E0061DA44 /* SWRevealViewController.m in Sources */,
 				BFB2B4E5207CA45400BB05B7 /* HomeViewController.m in Sources */,
 				BFB2B4EE207CB9F800BB05B7 /* ContentModel.m in Sources */,
 				BF8B5B0B2085E23B000BF183 /* CommonUIVIewController.m in Sources */,
 				BF8B5B072081B3D8000BF183 /* HomeTableViewCell.m in Sources */,
+				BF3471AC2090784F005EE37C /* LeftViewController.m in Sources */,
 				BFB2B4EB207CB9B500BB05B7 /* MyWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

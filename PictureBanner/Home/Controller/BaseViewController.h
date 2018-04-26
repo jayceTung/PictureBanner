@@ -7,10 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "TitleButton.h"
 
-@interface BaseViewController : UIViewController <UIWebViewDelegate>
+@interface BaseViewController : ViewController
 
-@property (nonatomic, strong) NSData *datanow;
-- (NSString *) type;
+/**
+ *  当前Controller的标题
+ *
+ *  @return 标题
+ */
+-(NSString *)controllerTitle;
+
+/**
+ *  初始化View
+ */
+-(void)initView;
+
+/**
+ *  按钮操作区的数组元素
+ *
+ *  @return 数组
+ */
+-(NSArray *)operateTitleArray;
+
+-(void)clickBtn : (UIButton *)btn;
 
 @end
